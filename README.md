@@ -8,7 +8,7 @@
 
 **Learn how modern AI agents work by building one from scratch.**
 
-[中文文档](./README_zh.md)
+[Chinese / 中文](./README_zh.md) | [Japanese / 日本語](./README_ja.md)
 
 ---
 
@@ -121,31 +121,24 @@ learn-claude-code/
 ├── v3_subagent.py         # ~450 lines: + Task tool, agent registry
 ├── v4_skills_agent.py     # ~550 lines: + Skill tool, SkillLoader
 ├── skills/                # Example skills (pdf, code-review, mcp-builder, agent-builder)
-├── docs/                  # Technical documentation (EN + ZH)
+├── docs/                  # Technical documentation (EN + ZH + JA)
 ├── articles/              # Blog-style articles (ZH)
 └── tests/                 # Unit and integration tests
 ```
 
-## Deep Dives
+## Documentation
 
-### Technical Documentation (docs/)
+### Technical Tutorials (docs/)
 
-| English | 中文 |
-|---------|------|
-| [v0: Bash is All You Need](./docs/v0-bash-is-all-you-need.md) | [v0: Bash 就是一切](./docs/v0-Bash就是一切.md) |
-| [v1: Model as Agent](./docs/v1-model-as-agent.md) | [v1: 模型即代理](./docs/v1-模型即代理.md) |
-| [v2: Structured Planning](./docs/v2-structured-planning.md) | [v2: 结构化规划](./docs/v2-结构化规划.md) |
-| [v3: Subagent Mechanism](./docs/v3-subagent-mechanism.md) | [v3: 子代理机制](./docs/v3-子代理机制.md) |
-| [v4: Skills Mechanism](./docs/v4-skills-mechanism.md) | [v4: Skills 机制](./docs/v4-Skills机制.md) |
+- [v0: Bash is All You Need](./docs/v0-bash-is-all-you-need.md)
+- [v1: Model as Agent](./docs/v1-model-as-agent.md)
+- [v2: Structured Planning](./docs/v2-structured-planning.md)
+- [v3: Subagent Mechanism](./docs/v3-subagent-mechanism.md)
+- [v4: Skills Mechanism](./docs/v4-skills-mechanism.md)
 
-### Articles (articles/) - Chinese, Social Media Style
+### Articles
 
-- [v0文章](./articles/v0文章.md) - Bash is All You Need
-- [v1文章](./articles/v1文章.md) - The $30M Secret in 400 Lines
-- [v2文章](./articles/v2文章.md) - Self-Constraining with Todo
-- [v3文章](./articles/v3文章.md) - Subagent Mechanism
-- [v4文章](./articles/v4文章.md) - Skills Mechanism
-- [上下文缓存经济学](./articles/上下文缓存经济学.md) - Context Caching Economics
+See [articles/](./articles/) for blog-style explanations.
 
 ## Using the Skills System
 
